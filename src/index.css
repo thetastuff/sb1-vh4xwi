@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+  
+  body {
+    @apply antialiased text-neutral-900 bg-white;
+  }
+}
+
+/* Add Inter font */
+@import url('https://rsms.me/inter/inter.css');
